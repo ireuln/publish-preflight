@@ -1,0 +1,14 @@
+# Local secret patterns - NEVER commit this file.
+# Copy .secret-patterns.example to .secret-patterns and put your own
+# identifiers here, one regex per line. '#' starts a comment.
+.secret-patterns
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*~
+
+# Local overrides
+*.local
