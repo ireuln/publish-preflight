@@ -3,6 +3,9 @@
 # identifiers here, one regex per line. '#' starts a comment.
 .secret-patterns
 
+# Session manifest is local bookkeeping, not part of the public tree.
+.session.json
+
 # OS / editor noise
 .DS_Store
 Thumbs.db
